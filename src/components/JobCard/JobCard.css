@@ -1,0 +1,43 @@
+.card {
+  width: 85%;
+  border-radius: 10px;
+  background-color: grey;
+  display: inline-flex;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 10px;
+}
+.card-logo {
+  padding: 10px;
+}
+.card-content {
+  color: white;
+}
+
+.detail-list {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+}
+
+/* .apply-button {
+  padding: 10px;
+  align-content: flex-end;
+  display: block;
+} */
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  outline: 2px dashed blue;
+}
