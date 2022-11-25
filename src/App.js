@@ -1,10 +1,11 @@
 import React from "react";
 
-import JobCard from "./JobCard/JobCard";
-import Footer from "./Footer/Footer";
-import SearchBar from "./ShearchBar/SearchBar";
+import JobCard from "./components/JobCard";
+import SearchBar from "./components/SearchBar";
+import Footer from "./components/Footer";
 // import JobData from "../Data.json";
-import { useFetchJobs } from "../hooks";
+import { useFetchJobs } from "./hooks";
+
 
 import "./App.css";
 

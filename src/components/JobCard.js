@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
-import { Colors } from "../Constants";
+import { Colors } from "./Constants";
 
-import "./JobCard.css";
+import "../styles/JobCard.css";
 
 // export default class JobCard extends React.Component {
 //   render () {
