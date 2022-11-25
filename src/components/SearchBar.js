@@ -86,19 +86,19 @@ export default class SearchBar extends React.Component {
             )} */}
           </div>
         </div>
-        <div className="applied-filters">
-          <ul>
-            {this.state.filters.map((filter, key) => (
-              <li key={key}>{filter}</li>
-            ))}
-          </ul>
-        </div>
         <div className="search-results">
           <ul>
             {this.state.searchResults.map((tag, key) => (
               <li key={key}>{tag}</li>
             ))}
           </ul>
+          <div className="applied-filters">
+            <ul>
+              {this.state.filters.map((filter, key) => (
+                <li key={key}>{filter}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     );

@@ -61,3 +61,34 @@ a:hover {
 #clearBtn {
   cursor: pointer;
 }
+
+.applied-filters {
+  display: inline-block;
+  float: left;
+}
+
+.applied-filters ul {
+  display: flex;
+}
+
+.applied-filters ul li {
+  margin: 2px;
+  background: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 13px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+
+/* .applied-filters ul:hover {
+  cursor: pointer;
+} */
+
+.applied-filters li {
+  text-decoration: none;
+  list-style-type: none;
+}
